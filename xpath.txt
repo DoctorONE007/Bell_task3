@@ -1,0 +1,7 @@
+1.//div[@class='g']//a[@href='https://www.open.ru/']//ancestor::div[@class='g']//div[@class='IsZvec']//span
+2.(//span[contains(@class,'currency-name')][contains(text(),'USD')]//ancestor::tr//span[@class='main-page-exchange__rate'])[1] - покупка Доллара
+  (//span[contains(@class,'currency-name')][contains(text(),'USD')]//ancestor::tr//span[@class='main-page-exchange__rate'])[2] - продажа Доллара
+  (//span[contains(@class,'currency-name')][contains(text(),'EUR')]//ancestor::tr//span[@class='main-page-exchange__rate'])[1] - покупка Евро
+  (//span[contains(@class,'currency-name')][contains(text(),'EUR')]//ancestor::tr//span[@class='main-page-exchange__rate'])[2] - продажа Евро
+3.//td[@data-sort-value>100000]//parent::tr//td[@align ='left'][1]
+4.//td[contains(text(),'Сибирский')]//ancestor::tr//td[@data-sort-value>100000]//parent::tr//td[@align ='left'][1]
